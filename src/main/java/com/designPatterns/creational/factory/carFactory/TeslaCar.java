@@ -1,4 +1,4 @@
-package com.designPatterns.creational.factory;
+package com.designPatterns.creational.factory.carFactory;
 
 public class TeslaCar extends Car{
     public TeslaCar(String modelName, String color, int year, double price, String engine) {

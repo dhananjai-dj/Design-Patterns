@@ -18,4 +18,13 @@ public class DataBase {
 
     }
 
+    private void createConnection() {
+        System.out.println("Creating connection to database...");
+    };
+
+    public void getConnection(){
+        System.out.println("Getting connection to database...");
+        createConnection();
+    }
+
 }

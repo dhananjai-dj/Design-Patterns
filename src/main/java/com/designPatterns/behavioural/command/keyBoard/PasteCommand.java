@@ -1,4 +1,4 @@
-package com.designPatterns.behavioural.command;
+package com.designPatterns.behavioural.command.keyBoard;
 
 public class PasteCommand implements ControlCommand {
     @Override

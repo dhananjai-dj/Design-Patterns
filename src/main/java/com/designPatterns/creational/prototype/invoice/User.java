@@ -1,4 +1,4 @@
-package com.designPatterns.creational.prototype;
+package com.designPatterns.creational.prototype.invoice;
 
 public class User {
     private String name;

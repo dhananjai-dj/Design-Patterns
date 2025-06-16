@@ -1,16 +1,16 @@
 package com.designPatterns.creational;
 
 import com.designPatterns.creational.abstractFactroy.Car;
-import com.designPatterns.creational.prototype.Invoice;
-import com.designPatterns.creational.prototype.Plan;
-import com.designPatterns.creational.prototype.User;
+import com.designPatterns.creational.prototype.invoice.Invoice;
+import com.designPatterns.creational.prototype.invoice.Plan;
+import com.designPatterns.creational.prototype.invoice.User;
 import com.designPatterns.creational.abstractFactroy.TeslaFactory;
 import com.designPatterns.creational.abstractFactroy.VehicleFactory;
 import com.designPatterns.creational.builder.HPMotherBoard;
 import com.designPatterns.creational.builder.MotherBoard;
 import com.designPatterns.creational.builder.MotherBoardBuilder;
-import com.designPatterns.creational.factory.BMWCar;
-import com.designPatterns.creational.factory.TeslaCar;
+import com.designPatterns.creational.factory.carFactory.BMWCar;
+import com.designPatterns.creational.factory.carFactory.TeslaCar;
 import com.designPatterns.creational.singleton.DataBase;
 
 public class CreationalPatterns {
@@ -41,8 +41,8 @@ public class CreationalPatterns {
         System.out.println(FebruaryInvoice);
 
         System.out.println("\nFactory Design Pattern");
-        com.designPatterns.creational.factory.Car car1 = new BMWCar("320i", "White", 2019, 100000.0, "2.0");
-        com.designPatterns.creational.factory.Car car2 = new TeslaCar("Model S", "Red", 2020, 150000.0, "3.0");
+        com.designPatterns.creational.factory.carFactory.Car car1 = new BMWCar("320i", "White", 2019, 100000.0, "2.0");
+        com.designPatterns.creational.factory.carFactory.Car car2 = new TeslaCar("Model S", "Red", 2020, 150000.0, "3.0");
         // car1.assemble();
         car1.deliver();
         car2.assemble();

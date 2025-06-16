@@ -1,4 +1,4 @@
-package com.designPatterns.creational.prototype;
+package com.designPatterns.creational.prototype.invoice;
 
 import java.time.LocalDateTime;
 

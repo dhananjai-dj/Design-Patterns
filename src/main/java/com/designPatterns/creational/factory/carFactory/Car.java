@@ -1,4 +1,4 @@
-package com.designPatterns.creational.factory;
+package com.designPatterns.creational.factory.carFactory;
 
 public abstract class Car {
     protected String modelName;

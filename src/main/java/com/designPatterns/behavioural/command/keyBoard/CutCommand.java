@@ -1,4 +1,4 @@
-package com.designPatterns.behavioural.command;
+package com.designPatterns.behavioural.command.keyBoard;
 
 public class CutCommand implements ControlCommand {
     @Override

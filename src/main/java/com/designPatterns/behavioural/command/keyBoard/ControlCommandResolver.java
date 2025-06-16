@@ -1,4 +1,4 @@
-package com.designPatterns.behavioural.command;
+package com.designPatterns.behavioural.command.keyBoard;
 
 import java.util.HashMap;
 import java.util.Map;
